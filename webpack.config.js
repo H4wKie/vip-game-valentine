@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const historyApiFallback = require('connect-history-api-fallback');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: {
     bundle: path.resolve(__dirname, 'src/index.js')
   },
