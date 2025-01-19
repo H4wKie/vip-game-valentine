@@ -41,17 +41,31 @@ const promptThree = [
     [`Drink if you've`, `spent the most money on ordering food in the last month`],
     [`Drink if you've`, `been caught lying about your age or have caugt someone lying about their age`],
     [`Drink if you've`, `formerly played a stupid instrument, especially the flute`],
-    [`Drink if you've`, `got your driverslicense`],
-    [`Task`, `take a bodyshot from the person to your right`],
-    [`Task`, `search a word of your choice in the WhatsApp of the person to your right`],
-    [`Task`, `give everybody a shot, one of the shots is water. guess who has the shot of water. if you guessed wrong, take a drink`],
-    [`Task`, `mix the drink of the person to your left and right and drink it`],
-    [`Task`, `everybody passes their shirt/top/blouse to the person to their right`]
+    [`Drink if you've`, `got your driverslicense`]
+    // ,
+    // [`Task`, `take a bodyshot from the person to your right`],
+    // [`Task`, `search a word of your choice in the WhatsApp of the person to your right`],
+    // [`Task`, `give everybody a shot, one of the shots is water. guess who has the shot of water. if you guessed wrong, take a drink`],
+    // [`Task`, `mix the drink of the person to your left and right and drink it`],
+    // [`Task`, `everybody passes their shirt/top/blouse to the person to their right`]
 ]; //lous' prompts
 
 const promptFour = [
-    [`Who's most likely to`, ``],
-    [`Drink if you've ever`, ``],
-]; //lous' prompts
+    [`Who's most likely to`, `find their true love on a dating app`],
+    [`Who's most likely to`, `to become a celebrity (for what?)`],
+    [`Who's most likely to`, `be the fastest at building IKEA furniture`],
+    [`Who's most likely to`, `not survive if they had to switch to a flip phone`],
+    [`Who's most likely to`, `go home first because they are mentally a grandma/grandpa`],
+    [`Who's most likely to`, `be the best host`],
+    [`Drink if you've`, `sent a text to the wrong person (tell the story)`],
+    [`Drink if you've`, `went on a date because you felt bad`],
+    [`Drink if you've`, `ghosted someone`],
+    [`Drink if you've`, `had to escape a bad date`]
+]; //gesa's prompts
 
-export { promptOne, promptTwo, promptThree };
+const promptFive = [
+    [`Who's most likely to`, ``],
+    [`Drink if you've`, ``],
+]; //geas's prompts
+
+export { promptOne, promptTwo, promptThree, promptFour };

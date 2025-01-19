@@ -1,0 +1,36 @@
+@font-face {
+  font-family: handWritten;
+  src: url(../assets/fonts/GreatVibes-Regular.ttf);
+}
+
+.balloon {
+  height: 200px;
+  position: absolute;
+  right: 300px;
+  animation-name: floatUp;
+  animation-duration: 12s;
+  animation-fill-mode: both;
+  animation-timing-function: ease;
+}
+
+.message {
+  text-align: center;
+
+  .happy{
+    letter-spacing: 5px;
+  }
+
+  .handwritten {
+    font-family: handWritten;
+    font-size: 3em;
+    font-weight: 100;
+  }
+}
+
+@keyframes floatUp {
+  from{
+    bottom: -300px;
+  }to{
+    bottom: 1250px;
+  }
+}

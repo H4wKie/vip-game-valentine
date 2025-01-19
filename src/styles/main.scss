@@ -10,14 +10,25 @@
 
 
 html {
-  background-color: black;
+  cursor: pointer;
+  background: linear-gradient(to right, #830010, #EF0029);
+  color: white;
   overflow-y: hidden;
   overflow-x: hidden;
 }
 
 body {
-  cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.custom-message,
+.main-content,
+.float-balloons {
+  display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  width: 33%;
 }

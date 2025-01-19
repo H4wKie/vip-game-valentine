@@ -1,0 +1,16 @@
+.main-content {
+  z-index: 1000;
+  text-align: center;
+
+  h1,h2 {
+    padding-inline: 10px;
+    padding-block: 5px;
+  }
+
+  h1 {
+    width: max-content;
+    margin: 0 auto;
+    color: #FFBF00;
+    mix-blend-mode: difference;
+  }
+}
