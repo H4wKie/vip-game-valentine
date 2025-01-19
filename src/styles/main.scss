@@ -18,6 +18,9 @@ html {
 }
 
 body {
+  -webkit-tap-highlight-color: transparent;
+
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
