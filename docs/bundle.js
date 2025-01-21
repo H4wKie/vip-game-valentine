@@ -204,6 +204,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@media only screen and (max-width: 130
   body {
     justify-content: center;
   }
+  .message {
+    position: absolute;
+    top: 50px;
+  }
   .main-content h1, .main-content h2 {
     background-color: rgba(0, 0, 0, 0.6);
   }
@@ -219,7 +223,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@media only screen and (max-width: 130
   .main-content {
     width: 100%;
   }
-}`, "",{"version":3,"sources":["webpack://./src/styles/responsive.scss"],"names":[],"mappings":"AAAA;EAEI;IACE,oCAAA;IACA,oBAAA;IACA,kBAAA;IACA,kBAAA;EAAJ;EAKE;IACE,iBAAA;EAHJ;EAME;IACE,gBAAA;EAJJ;AACF;AAQA;EACE;IACE,uBAAA;EANF;EAUE;IACE,oCAAA;EARJ;EAYA;;IAEE,kBAAA;EAVF;EAcA;IACE,UAAA;EAZF;AACF;AAuBA;EACE;IACE,WAAA;EArBF;AACF","sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/responsive.scss"],"names":[],"mappings":"AAAA;EAEI;IACE,oCAAA;IACA,oBAAA;IACA,kBAAA;IACA,kBAAA;EAAJ;EAKE;IACE,iBAAA;EAHJ;EAME;IACE,gBAAA;EAJJ;AACF;AAQA;EACE;IACE,uBAAA;EANF;EASA;IACE,kBAAA;IACA,SAAA;EAPF;EAWE;IACE,oCAAA;EATJ;EAaA;;IAEE,kBAAA;EAXF;EAeA;IACE,UAAA;EAbF;AACF;AAwBA;EACE;IACE,WAAA;EAtBF;AACF","sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
