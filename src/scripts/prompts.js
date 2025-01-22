@@ -64,8 +64,37 @@ const promptFour = [
 ]; //gesa's prompts
 
 const promptFive = [
-    [`Who's most likely to`, ``],
-    [`Drink if you've`, ``],
-]; //geas's prompts
+    [`Who's most likely to`, `start a family first`],
+    [`Who's most likely to`, `be the mom/dad of the group`],
+    [`Who's most likely to`, `get lost on a trip`],
+    [`Who's most likely to`, `lose their student card`],
+    [`Who's most likely to`, `need therapy after studying`],
+    [`Who's most likely to`, `camp out for concert tickets`],
+    [`Who's most likely to`, `have the messiest room`],
+    [`Drink if you've`, `got dying plants`],
+    [`Drink if you've`, `had a curfew living at home`],
+    [`Drink if you've`, `saved someone with a nickname in your phone`],
+    [`Drink if you're`, `still on your first drink`],
+    [`Drink if you've`, `stayed up all night reading`],
+    [`Drink if you've`, `had a memorable encounter with a fortune teller/psychic`]
+]; //ilvy's prompts
 
-export { promptOne, promptTwo, promptThree, promptFour };
+const promptSix = [
+    [`Drink if you've`, `gone skinny dipping`],
+    [`Drink if you're`, `single`],
+    [`Drink if you've`, `met up with someone from a dating app`],
+    [`Drink if you've`, `been dumped over the phone`],
+    [`Drink if you've`, `had a blind date`],
+    [`Drink if you`, `believe in love at first sight`],
+    [`Drink if you're`, `wearing black underwear`],
+    [`Drink if you've`, `successfully used a pick-up line`],
+    [`Drink if you've`, `recieved a handwritten love letter`],
+    [`Drink if you've`, `had romantic feelings for someone of the same sex`],
+    [`Drink if you've`, `hooked up with more than one person in the same night`],
+    [`Who's most likely to`, `be the biggest romantic`],
+    [`Who's most likely to`, `read erotica`],
+    [`Who's most likely to`, `get married first`],
+    [`Who's most likely to`, `have attachment issues`]
+]
+
+export { promptOne, promptTwo, promptThree, promptFour, promptFive, promptSix };
