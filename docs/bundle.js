@@ -1095,13 +1095,12 @@ const promptThree = [
     [`Drink if you've`, `spent the most money on ordering food in the last month`],
     [`Drink if you've`, `been caught lying about your age or have caugt someone lying about their age`],
     [`Drink if you've`, `formerly played a stupid instrument, especially the flute`],
-    [`Drink if you've`, `got your driverslicense`]
-    // ,
-    // [`Task`, `take a bodyshot from the person to your right`],
-    // [`Task`, `search a word of your choice in the WhatsApp of the person to your right`],
-    // [`Task`, `give everybody a shot, one of the shots is water. guess who has the shot of water. if you guessed wrong, take a drink`],
-    // [`Task`, `mix the drink of the person to your left and right and drink it`],
-    // [`Task`, `everybody passes their shirt/top/blouse to the person to their right`]
+    [`Drink if you've`, `got your driverslicense`],
+    [`Task`, `take a bodyshot from the person to your right`],
+    [`Task`, `search a word of your choice in the WhatsApp of the person to your right`],
+    [`Task`, `give everybody a shot, one of the shots is water. guess who has the shot of water. if you guessed wrong, take a drink`],
+    [`Task`, `mix the drink of the person to your left and right and drink it`],
+    [`Task`, `everybody passes their shirt/top/blouse to the person to their right`]
 ]; //lous' prompts
 
 const promptFour = [
@@ -1132,6 +1131,19 @@ const promptFive = [
     [`Drink if you've`, `stayed up all night reading`],
     [`Drink if you've`, `had a memorable encounter with a fortune teller/psychic`]
 ]; //ilvy's prompts
+
+const promptSeven = [
+    [`Drink if you've`, `gone on a date just for a free meal`],
+    [`Drink if you've`, `said "I love you" by accident`],
+    [`Drink if you've`, `forgotten someone's name after a date`],
+    [`Drink if you've`, `written a love letter`],
+    [`Task`, `tell your worst date story`],
+    [`Task`, `for the three questions hold hands with the person to your left`],
+    [`Task`, `make a shot for the person to your right`],
+    [`Task`, `name your current crush or take 4 sips`],
+    [`Task`, `name your celebrity crush`],
+    [`Task`, `switch seats with the person opposite of you`]
+]
 
 const promptSix = [
     [`Drink if you've`, `gone skinny dipping`],
