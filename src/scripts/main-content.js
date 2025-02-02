@@ -1,7 +1,7 @@
-import { promptOne, promptTwo, promptThree, promptFour, promptFive, promptSix } from "./prompts";
+import { promptOne, promptTwo, promptThree, promptFour, promptFive, promptSix, promptSeven } from "./prompts";
 import '../styles/content.scss';
 
-const allPrompts = promptOne.concat(promptTwo, promptThree, promptFour, promptFive, promptSix);
+const allPrompts = promptOne.concat(promptTwo, promptThree, promptFour, promptFive, promptSix, promptSeven);
 let pastNr = [];
 
 function loadMain(mainTxt) {

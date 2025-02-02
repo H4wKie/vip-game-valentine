@@ -963,7 +963,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const allPrompts = _prompts__WEBPACK_IMPORTED_MODULE_0__.promptOne.concat(_prompts__WEBPACK_IMPORTED_MODULE_0__.promptTwo, _prompts__WEBPACK_IMPORTED_MODULE_0__.promptThree, _prompts__WEBPACK_IMPORTED_MODULE_0__.promptFour, _prompts__WEBPACK_IMPORTED_MODULE_0__.promptFive, _prompts__WEBPACK_IMPORTED_MODULE_0__.promptSix);
+const allPrompts = _prompts__WEBPACK_IMPORTED_MODULE_0__.promptOne.concat(_prompts__WEBPACK_IMPORTED_MODULE_0__.promptTwo, _prompts__WEBPACK_IMPORTED_MODULE_0__.promptThree, _prompts__WEBPACK_IMPORTED_MODULE_0__.promptFour, _prompts__WEBPACK_IMPORTED_MODULE_0__.promptFive, _prompts__WEBPACK_IMPORTED_MODULE_0__.promptSix, _prompts__WEBPACK_IMPORTED_MODULE_0__.promptSeven);
 let pastNr = [];
 
 function loadMain(mainTxt) {
@@ -1048,6 +1048,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   promptFive: () => (/* binding */ promptFive),
 /* harmony export */   promptFour: () => (/* binding */ promptFour),
 /* harmony export */   promptOne: () => (/* binding */ promptOne),
+/* harmony export */   promptSeven: () => (/* binding */ promptSeven),
 /* harmony export */   promptSix: () => (/* binding */ promptSix),
 /* harmony export */   promptThree: () => (/* binding */ promptThree),
 /* harmony export */   promptTwo: () => (/* binding */ promptTwo)

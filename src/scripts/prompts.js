@@ -109,4 +109,4 @@ const promptSix = [
     [`Who's most likely to`, `have attachment issues`]
 ]
 
-export { promptOne, promptTwo, promptThree, promptFour, promptFive, promptSix };
+export { promptOne, promptTwo, promptThree, promptFour, promptFive, promptSix, promptSeven };
